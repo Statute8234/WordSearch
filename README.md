@@ -7,7 +7,7 @@ This Python script creates a word search puzzle grid by asking the user to input
 - [About](#about)
 - [Features](#features)
 - [Imports](#Imports)
-- [Rating: 6/10](#Rating)
+- [Rating: 3/10](#Rating)
 
 # About
 
@@ -23,4 +23,4 @@ random
 
 # Rating
 
-The tool offers basic functionality for creating word search puzzles and allows user input for customization. However, it lacks error handling, limited customization options, and may not be optimal in layout. Improvements include better variable names and clearer structure.
+For its user interaction and randomness. It uses the `random.choice()` function to randomly select letters and words, adding variability to the word search. However, there are areas for improvement, such as variable naming, formatting, logic errors, and unused variables. Variable names like `colloms`, `word_name`, and `letters` have misspellings and are not descriptive. The output grid is not well-structured, with letters printed in an irregular manner, making it difficult to read. The loop generating the word search grid is not functioning correctly, and the variable `list` is defined but never used. The word search grid is not consistent in its layout, with inconsistent spacing between letters and words. The code lacks error handling mechanisms for user inputs of unexpected values or invalid words. Modularization could improve the code's readability, functionality, and overall quality. Addressing these areas can enhance the overall quality of the word search generator.
